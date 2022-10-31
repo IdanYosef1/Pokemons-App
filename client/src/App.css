@@ -1,0 +1,187 @@
+/* --------------------------------------------------- HomePage.js --------------------------------------------------- */
+
+.div-table {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 500px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.refresh-style {
+  background-color: rgb(57, 133, 195);
+  color: white;
+  width: 100%;
+  min-width: 305px;
+  border: none;
+  height: 38px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px, rgba(0, 0, 0, 0.23) 0px 0px 5px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* ------------------------- DetailsPokemonPage.js and AddPokemonPage.js and EditPokemonPage.js ------------------------- */
+
+.div-action {
+  margin-top: 25px;
+  left: 19%;
+  position: absolute;
+}
+
+.h4-style {
+  font-weight: 700;
+}
+
+.div-pokemon {
+  display: flex;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 463px) {
+  .div-action {
+    left: 2%;
+  }
+}
+
+/* -------------------------------------- DetailsPokemonPage.js and PokemonForm.js -------------------------------------- */
+
+form,
+.div-details {
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+.div-base {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.label-name-type span,
+.span-base {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.label-base span,
+.span-values {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.back-add-style,
+.back-style,
+.save-style {
+  margin-top: 35px;
+  width: 85px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px, rgba(0, 0, 0, 0.23) 0px 0px 5px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.back-add-style {
+  float: right;
+  margin-right: 15px;
+  background-color: rgb(165, 165, 165);
+}
+
+.back-style {
+  float: right;
+  margin-left: 118px;
+  background-color: rgb(165, 165, 165);
+}
+
+.save-style {
+  float: right;
+  background-color: rgb(57, 133, 195);
+}
+
+/* -------------------------------------- AddPokemonPage.js and EditPokemonPage.js -------------------------------------- */
+
+.img-addPokemon {
+  margin-top: 23px;
+}
+
+/* -------------------------------------------------- PokemonsTable.js  -------------------------------------------------- */
+
+.table-style {
+  border-color: white !important;
+  min-width: 305px;
+}
+
+.firstRow-style {
+  background-color: #a4a4a4;
+  color: white;
+  border-bottom: 2px solid white !important;
+}
+
+/* ------------------------------------------------ PokemonsRow.js ------------------------------------------------ */
+.tr-style {
+  background-color: #ececec;
+}
+
+/* ------------------------------------------------ AppNavbar.js  ------------------------------------------------ */
+
+.navbar {
+  min-width: 305px;
+}
+
+.nav {
+  gap: 8px;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  color: rgb(26, 215, 105);
+}
+
+.verticalLine {
+  border: 0.2px solid white;
+}
+
+/* ------------------------------------------------ PokemonForm.js  ------------------------------------------------ */
+
+.div-buttons {
+  float: right;
+}
+
+label {
+  display: block;
+}
+
+.label-name-type input {
+  width: 200px;
+  height: 25px;
+}
+
+.label-name-type span,
+.label-base span,
+.label-base input {
+  display: inline-block;
+  text-align: left;
+}
+
+.label-name-type span {
+  width: 75px;
+}
+
+.label-base span {
+  width: 120px;
+}
+
+.label-base input {
+  width: 135px;
+  height: 25px;
+}
+
+.message {
+  font-weight: 700;
+}
