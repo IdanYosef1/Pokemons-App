@@ -19,7 +19,7 @@ function AddPokemonPage() {
         Speed: pokemon.Speed,
       },
       image:
-        "https://en.wikipedia.org/wiki/Pok%C3%A9mon#/media/File:International_Pok%C3%A9mon_logo.svg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1920px-International_Pok%C3%A9mon_logo.svg.png",
     };
     try {
       const { data } = await createData(newPokemon);
